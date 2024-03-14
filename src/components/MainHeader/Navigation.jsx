@@ -1,6 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import classes from './Navigation.module.css';
+import classes from "./Navigation.module.css";
+import { AuthContext } from "../../store";
 
 const Navigation = (props) => {
   return (
